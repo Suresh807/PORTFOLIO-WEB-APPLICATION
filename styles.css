@@ -192,6 +192,42 @@ img {
 
 /*===== HOME =====*/
 .home {
+  position: relative;
+  row-gap: 5rem;
+  padding: 4rem 0 5rem;
+}
+
+.home__data {
+  align-self: center;
+}
+
+.home__title {
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-5);
+}
+
+.home__title-color {
+  color: var(--first-color);
+}
+
+.home__social {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__social-icon {
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+
+.home__social-icon:hover {
+  color: var(--first-color);
+}
+
+/*===== HOME =====*/
+.home {
     /* ... (previous styles) ... */
     
     &__img {
@@ -217,7 +253,6 @@ img {
         }
     }
 }
-
 
 /*BUTTONS*/
 .button {
